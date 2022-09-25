@@ -17,30 +17,30 @@
 	</head>
 	<body>
 		<header>
-			<div class="container main-nav">
-				<nav class="site-nav">
+			<div class="container header">
+				<nav class="nav">
 					<a href="./index.html" class="logo">
 						Web
-						<span class="logo-black">Studio</span>
+						<span class="logo__black">Studio</span>
 					</a>
-					<ul class="heads-links">
-						<li class="heads-links-list"><a href="./index.html" class="">Студія</a></li>
-						<li class="heads-links-list links-list-one"><a href="" class="current">Портфоліо</a></li>
-						<li class="heads-links-list"><a href="">Контакти</a></li>
+					<ul class="nav__pages">
+						<li class="nav__name"><a class="nav__link" href="./index.html">Студія</a></li>
+						<li class="nav__name current"><a class="nav__link" href="./portfolio.html">Портфоліо</a></li>
+						<li class="nav__name"><a class="nav__link" href="">Контакти</a></li>
 					</ul>
 				</nav>
-				<ul class="mail-tel">
+				<ul class="header__contacts">
 					<li>
-						<a class="mail-link" href="mailto:info@devstudio.com">
-							<svg>
+						<a class="header__link" href="mailto:info@devstudio.com">
+							<svg class="header__icon-mail">
 								<use href="./images/symbol-defs3.svg#icon-envelope"></use>
 							</svg>
 							info@devstudio.com
 						</a>
 					</li>
 					<li>
-						<a class="tel-link" href="tel:+380961111111">
-							<svg>
+						<a class="header__link" href="tel:+380961111111">
+							<svg class="header__icon-tel">
 								<use href="./images/symbol-defs3.svg#icon-smartphone"></use>
 							</svg>
 							+38 096 111 11 11
@@ -204,56 +204,54 @@
 			</section>
 		</main>
 		<footer>
-			<div class="container footer-flex">
-				<div class="footer-address-logo">
+			<div class="container footer">
+				<div>
 					<a href="./index.html" class="logo">
 						Web
-						<span class="logo-white">Studio</span>
+						<span class="logo__white">Studio</span>
 					</a>
-					<address class="footer-address">
+					<address class="footer__contacts">
 						<ul>
 							<li>
-								<a href="https://goo.gl/maps/BtjrB1jNea8zQYT58" target="_blank" rel="noopener nofollow" class="address">
+								<a class="footer__address" href="https://goo.gl/maps/BtjrB1jNea8zQYT58" target="_blank" rel="noopener nofollow">
 									м. Київ, пр-т Лесі Українки, 26
 								</a>
 							</li>
-							<li>
-								<a href="mailto:info@devstudio.com" class="mail-tel-footer">info@devstudio.com</a>
-							</li>
-							<li><a href="tel:+380961111111" class="mail-tel-footer">+38 096 111 11 11</a></li>
+							<li><a class="footer__link" href="mailto:info@devstudio.com" >info@devstudio.com</a></li>
+							<li><a class="footer__link" href="tel:+380961111111">+38 096 111 11 11</a></li>
 						</ul>
 					</address>
 				</div>
-				<div class="footer-contact-us">
-					<p class="join">приєднуйтесь</p>
+				<div class="join">
+					<p class="join__us">приєднуйтесь</p>
 					<ul class="icon-list-1">
 						<li>
-							<a class="button-icon" href="#">
-								<svg class="icon">
+							<a class="icons__button join__icon" href="#">
+								<svg class="icons__svg">
 									<use class="" href="./images/symbol-defs2.svg#icon-instagram-2"></use>
 								</svg>
 							</a>
 						</li>
 
 						<li>
-							<a class="button-icon" href="#">
-								<svg class="icon">
+							<a class="icons__button join__icon" href="#">
+								<svg class="icons__svg">
 									<use href="./images/symbol-defs2.svg#icon-twitter-1"></use>
 								</svg>
 							</a>
 						</li>
 
 						<li>
-							<a class="button-icon" href="#">
-								<svg class="icon">
+							<a class="icons__button join__icon" href="#">
+								<svg class="icons__svg">
 									<use href="./images/symbol-defs2.svg#icon-facebook-1"></use>
 								</svg>
 							</a>
 						</li>
 
 						<li>
-							<a class="button-icon" href="#">
-								<svg class="icon">
+							<a class="icons__button join__icon" href="#">
+								<svg class="icons__svg">
 									<use class="button-icon" href="./images/symbol-defs2.svg#icon-linkedin-1"></use>
 								</svg>
 							</a>
@@ -262,7 +260,7 @@
 				</div>
 				<div class="footer-follow">
 					<form action="" class="form2">
-						<p class="join">Підпишіться на розсилку</p>
+						<p class="join__us">Підпишіться на розсилку</p>
 						<div class="footer-form">
 							<div class="form-follow">
 								<label for="mail"></label>
