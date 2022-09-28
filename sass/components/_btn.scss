@@ -37,8 +37,8 @@
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
- & :hover,
- & :focus {
+ &:hover,
+ &:focus {
     color: var(--hero-text-color);
     background-color: var(--accent-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -64,7 +64,7 @@
 }
 }
 
-.button-clients {
+.clients__button {
     color: #AFB1B8;
     border: 1px solid #AFB1B8;
     width: 170px;
