@@ -37,11 +37,11 @@ header {
   border-bottom: 1px solid #ECECEC;
 }
 
-/* footer {
+footer {
   background-color: var(--accent-background-color);
   padding-top: 60px;
   padding-bottom: 60px;
-} */
+}
 
 h1,
 h2,
