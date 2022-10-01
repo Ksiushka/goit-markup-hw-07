@@ -13,7 +13,7 @@
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
 		/>
-		<link rel="stylesheet" href="./css/styles.css" />
+		<!-- <link rel="stylesheet" href="./css/styles.css" /> -->
 		<link rel="stylesheet" href="./css/main.min.css" />
 	</head>
 	<body>
@@ -25,7 +25,7 @@
 						<span class="logo__black">Studio</span>
 					</a>
 					<ul class="nav__pages">
-						<li class="nav__name"><a class="nav__link current" href="./index.html">Студія</a></li>
+						<li class="nav__name"><a class="current nav__link" href="./index.html">Студія</a></li>
 						<li class="nav__name"><a class="nav__link" href="./portfolio.html">Портфоліо</a></li>
 						<li class="nav__name"><a class="nav__link" href="">Контакти</a></li>
 					</ul>
@@ -150,7 +150,7 @@
 										</a>
 									</li>
 
-									<li>
+									<li class="icons__list">
 										<a class="icons__button" href="#">
 											<svg class="icons__svg">
 												<use href="./images/symbol-defs2.svg#icon-twitter-1"></use>
@@ -158,7 +158,7 @@
 										</a>
 									</li>
 
-									<li>
+									<li class="icons__list">
 										<a class="icons__button" href="#">
 											<svg class="icons__svg">
 												<use href="./images/symbol-defs2.svg#icon-facebook-1"></use>
@@ -166,7 +166,7 @@
 										</a>
 									</li>
 
-									<li>
+									<li class="icons__list">
 										<a class="icons__button" href="#">
 											<svg class="icons__svg">
 												<use href="./images/symbol-defs2.svg#icon-linkedin-1"></use>
@@ -232,7 +232,7 @@
 										</a>
 									</li>
 
-									<li>
+									<li class="icons__list">
 										<a class="icons__button" href="#">
 											<svg class="icons__svg">
 												<use href="./images/symbol-defs2.svg#icon-twitter-1"></use>
@@ -240,7 +240,7 @@
 										</a>
 									</li>
 
-									<li>
+									<li class="icons__list">
 										<a class="icons__button" href="#">
 											<svg class="icons__svg">
 												<use href="./images/symbol-defs2.svg#icon-facebook-1"></use>
@@ -248,7 +248,7 @@
 										</a>
 									</li>
 
-									<li>
+									<li class="icons__list">
 										<a class="icons__button" href="#">
 											<svg class="icons__svg">
 												<use href="./images/symbol-defs2.svg#icon-linkedin-1"></use>
@@ -420,8 +420,8 @@
 				<div class="footer-follow">
 					<form action="" class="form2">
 						<p class="join__us">Підпишіться на розсилку</p>
-						<div class="footer-form">
-							<div class="form-follow">
+						<div class="form2__footer">
+							<div class="form2__follow">
 								<label for="mail"></label>
 								<input required="" type="email" name="mail" id="mail" placeholder="E-mail" />
 							</div>
@@ -476,7 +476,7 @@
 					<button type="submit" class="modal-submit">Відправити</button>
 				</form>
 				<button class="close" data-modal-close>
-					<svg class="svg-close" width="30" height="30">
+					<svg class="close__svg" width="30" height="30">
 						<use href="./images/symbol-defs5.svg#icon-close-black-18dp-2-1"></use>
 					</svg>
 				</button>
